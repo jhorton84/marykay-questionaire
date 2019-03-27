@@ -1,0 +1,10 @@
+nav {
+    height: 100px;
+    background: black;
+    color: white;
+}
+
+a {
+    color: white;
+    margin: 10px;
+}

@@ -1,33 +1,66 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.component {
+  /* background: whitesmoke; */
+  height: calc(100vh - 100px);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+}
+form {
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.checkbox {
+  /* background: yellow; */
+  width: 250px;
+  margin: 10px;
+
+}
+label {
+  /* width: 150px; */
+  /* background: purple; */
+  margin: 10px;
+  font-size: 20px;
+}
+input {
+  height: 20px;
+  width: 20px;
+}
+p {
+  font-size: 30px;
+  color: palevioletred;
+}
+.form-buttons {
+  /* background-color: red; */
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+.prev {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.next {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+button {
   color: white;
+  background: palevioletred;
+  height: 30px;
+  width: 80px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  color: palevioletred;
+  background: black;
 }
